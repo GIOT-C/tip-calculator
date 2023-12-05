@@ -1,0 +1,51 @@
+.fa-dollar-sign {
+  position: absolute;
+  left: 25.5%;
+  top: 32.5%;
+}
+
+.fa-user {
+  position: absolute;
+  left: 25.5%;
+  top: 67.8%;
+}
+
+.fa-dollar-sign,
+.fa-user {
+  color: hsl(184, 14%, 56%);
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 600px) {
+  .fa-dollar-sign {
+    left: 9.5%;
+    top: 10.5%;
+  }
+
+  .fa-user {
+    left: 9.5%;
+    top: 45.8%;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .fa-dollar-sign {
+    left: 14%;
+  }
+
+  .fa-user {
+    left: 14%;
+  }
+}
+
+/* Laptop Styles */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .fa-dollar-sign {
+    left: 20%;
+  }
+
+  .fa-user {
+    left: 20%;
+  }
+}
